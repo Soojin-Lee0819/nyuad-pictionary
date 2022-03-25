@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <title>NYUAD Pictionary</title>
+
+</head>
+
+<body>
+
+  <!-- Write Title Here -->
+  <div id="title">
+    <h1>NYUAD Pictionary</h1>
+  </div>
+
+  <!-- Game Container -->
+  <div id="game-container">
+    <!-- View drawing canvas here -->
+    <div id="sketch-container">
+      <div id="sketch-canvas"></div>
+      <!-- Get-Word Button section -->
+      <div class="getwordbutton">
+        <button id="getword-button">Draw</button>
+        <text class="drawword-text"><span id="draw_this"></span></text>
+      </div>
+   
+    </div>
+
+    <!-- Chat Container -->
+    <div id="chat-container">
+
+      <!-- View chat messages here here -->
+      <div class="sub-container chat-feed">
+        <div class="chat-box" id="chat-box-msgs"></div>
+      </div>
+
+      <!-- Enter chat messages here -->
+      <div class="sub-container chat-input">
+        <input type="text" class="chat-input-msg" id="msg-input" placeholder="Answer" />
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
