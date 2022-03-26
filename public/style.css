@@ -70,6 +70,17 @@ html, body {
 
 }
 
+#draw_this{
+    color:white;
+    
+}
+
+#getword-button:disabled,
+#getword-button[disabled]{
+    background-color:#424384;
+    opacity:0.1;
+
+}
 
 /* chat */
 #chat-container {
@@ -138,20 +149,12 @@ input{
 
 .chat-box{
     height: 60vh;
-    background-color:#FFE09D;
+    background-color:#E5D8F6;
     overflow: auto;
 }
 
-p{
+.chat-feed p{
     margin-left:10%;
-    color:white;
+    color:black;
     overflow-wrap: break-word;
-}
-
-
-#getword-button:disabled,
-#getword-button[disabled]{
-    background-color:#424384;
-    opacity:0.1;
-
 }
