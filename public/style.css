@@ -2,7 +2,7 @@ html, body {
     margin:0;
     padding:0;
     font-family: 'Architects Daughter', cursive;
-    background-color:#F5AF8B;
+    background-color:#57068C;
 }
 
 /* title */
@@ -12,7 +12,7 @@ html, body {
     height:20%;
     font-size: 2vw;
     font-family: 'Architects Daughter', cursive;
-    color:#101242;
+    color:white;
 
 }
 
@@ -138,7 +138,7 @@ input{
 
 .chat-box{
     height: 60vh;
-    background-color:#424384;
+    background-color:#FFE09D;
     overflow: auto;
 }
 
@@ -146,4 +146,12 @@ p{
     margin-left:10%;
     color:white;
     overflow-wrap: break-word;
+}
+
+
+#getword-button:disabled,
+#getword-button[disabled]{
+    background-color:#424384;
+    opacity:0.1;
+
 }

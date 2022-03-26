@@ -1,7 +1,7 @@
 {
   "name": "week8_in_class",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Title**:NYUAD Pictionary <br> **Category**: WEEK 8 <br> **Date**: 25 Mar 2022 <br> **Deliverable**: CSS/HTML/Javascript/Node.js/Client-server Connected Game <br>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +14,6 @@
     "nodemon": "^2.0.15",
     "socket.io": "^4.4.1",
     "word-pictionary-list": "^1.0.4"
-  }
+  },
+  "devDependencies": {}
 }
